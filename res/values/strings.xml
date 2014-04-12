@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">GlassNinja</string>
+    <string name="voice_trigger">Run Report</string>
+    <string name="action_stop">stop</string>
+     <string name="action_stop2">stop2</string>
+    
+
+</resources>
