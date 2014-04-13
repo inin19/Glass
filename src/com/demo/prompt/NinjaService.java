@@ -45,9 +45,10 @@ public class NinjaService extends Service {
 
 	public static final String LIVE_CARD_TAG = "PromptLiveCard";
 	private static final int MENU_ACTIVITY_REQUEST_CODE = 1337;
-	private static final String uri = "http://inin-pc.no-ip.biz/MicroStrategy/servlet/taskAdmin?taskId=reportDataService&taskEnv=xml&taskContentType=xml&server=127.0.0.1&project=MicroStrategy+Tutorial&userid=Administrator&password=&styleName=CustomXMLReportStyle&reportID=1D5591A74999A408FE26C0AB245BA17D&valuePromptAnswers=2012";   
+//	private static final String SERVER = "inin-pc.no-ip.biz:8080";
 	
-//	private static final String uri = "http://google.com";
+	private static final String uri = "http://inin-pc.no-ip.biz:8080/MicroStrategy/servlet/taskAdmin?taskId=reportDataService&taskEnv=xml&taskContentType=xml&server=inin-pc.no-ip.biz&project=MicroStrategy+Tutorial&userid=Administrator&password=&styleName=CustomXMLReportStyle&reportID=0A91A86D4EDB361ACB8B00BCDECFC00B&valuePromptAnswers=2012";   
+	
 
 	private LiveCard mLiveCard;
 	private RemoteViews mRemoteViews;
