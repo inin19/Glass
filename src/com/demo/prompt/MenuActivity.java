@@ -1,17 +1,14 @@
 package com.demo.prompt;
 
-import com.google.android.glass.timeline.LiveCard;
 import com.panderasystems.glassninja.R;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
 public class MenuActivity extends Activity {
-	private static final String LOG_TAG = "MenuActivity";
 
 	@Override
 	public void onAttachedToWindow() {
